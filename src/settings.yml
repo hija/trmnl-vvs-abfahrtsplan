@@ -4,7 +4,7 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: https://dbf.finalrewind.org/{{station | url_encode}}.json?detailed=1&version=3&limit=10&admode=dep&efa=VVS
+polling_url: https://dbf.finalrewind.org/{{station | url_encode}}.json?detailed=1&version=3&limit=8&admode=dep&efa=VVS
 polling_headers: accept=application/json
 polling_body: 
 id: 221669
