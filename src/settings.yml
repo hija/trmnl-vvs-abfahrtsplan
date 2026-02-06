@@ -1,0 +1,28 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+polling_url: https://dbf.finalrewind.org/{{station | url_encode}}.json?detailed=1&version=3&limit=10&admode=dep&efa=VVS
+polling_headers: accept=application/json
+polling_body: 
+id: 221669
+custom_fields:
+- keyname: author_bio
+  name: About This Plugin
+  category: life,environment
+  field_type: author_bio
+  description: |
+    This plugin can be used to show the next departures for a station in the VVS (Verkehrs- und Tarifverbund Stuttgart) public transportation network.
+    Please notice, that this plugin is not affiliated with the VVS and uses data from a third-party API. The data may not always be accurate or up-to-date, so please verify the information with official sources if needed.
+    Additionally, the plugin uses german terms for the departure information, as it is designed for the VVS network in Germany.
+  github_url: https://github.com/hija/trmnl-vvs-abfahrtsplan
+- keyname: station
+  name: Station
+  field_type: string
+  description: The station name to fetch information for.
+  help_text: You can find your station name using the VVS App or the VVS Website.
+  placeholder: Hauptbahnhof (Arnulf-Klett-Platz)
+name: VVS Departures
+refresh_interval: 5
