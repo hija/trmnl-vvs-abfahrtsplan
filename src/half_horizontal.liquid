@@ -1,1 +1,1 @@
-{% render "departures_view", limit: 3, departures: departures, station: station, size: size, trmnl: trmnl %}
+{% render "departures_view", limit: 3, departures: departures, station: trmnl.plugin_settings.custom_fields_values.station %}
