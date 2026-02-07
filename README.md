@@ -10,9 +10,9 @@ A TRMNL plugin that displays real-time departure information for public transpor
 
 ## Features
 
-- **Real-time departures**: Shows the next 10 departures from your selected station
+- **Real-time departures**: Shows the next 8 / 3 (depending on screen size) departures from your selected station
 - **Detailed information**: Displays line number, destination, and departure time
-- **Delay indicator**: Visual marker (◯) shows realtime-information
+- **Realtime Information indicator**: Visual marker (◯) shows realtime-information
 - **Auto-refresh**: Updates every 5 minutes to keep information current
 - **Cancelled trips**: Automatically filters out cancelled services
 - **Multiple layouts**: Supports full, half (horizontal/vertical), and quadrant display sizes
