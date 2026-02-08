@@ -100,6 +100,7 @@ MIT License - See LICENSE file for details
 
 ## Credits
 
+- This project is **heavily inspired** (\*cough\*) by the [trmnl-austrian-train-departures](https://github.com/bnussbau/trmnl-austrian-train-departures) recipe by @bnussbau 
 - Data provided by [dbf.finalrewind.org](https://dbf.finalrewind.org/)
 - Icon from [Icons8](https://icons8.com/)
 - Built for [TRMNL](https://usetrmnl.com/)
