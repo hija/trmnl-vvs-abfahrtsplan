@@ -21,7 +21,7 @@
           <tr>
             <td><span class="label">{{ departure.line }}</span></td>
             <td><span class="label">{{ departure.destination }}</span></td>
-            <td><span class="label">{% if departure.rt_datetime == departure.datetime %} ◯ {% endif %}{{ departure.datetime | date: "%H:%M" }}</span></td>
+            <td><span class="label">{% if departure.rt_datetime == departure.datetime %} ◯ {% endif %}{{ departure.datetime | plus: trmnl.user.utc_offset | date: "%H:%M" }}</span></td>
           </tr>
           {% assign count = count | plus: 1 %}
         {% endfor %}
